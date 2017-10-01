@@ -1,0 +1,26 @@
+@font-face {
+font-family: "f";
+src: url("../fonts/f.eot");
+src: url("../fonts/f.eot?#iefix")format("embedded-opentype"),
+url("../fonts/f.woff") format("woff"),
+url("../fonts/f.ttf") format("truetype"),
+url("../images/f.svg#f") format("svg");
+font-weight: normal;
+font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+font-family: "f";
+src: url("../images/f.svg#f") format("svg");
+}
+}
+[class^="f-"]:before, [class*=" f-"]:before,
+[class^="f-"]:after, [class*=" f-"]:after {   
+font-family: f;
+font-size: 21px;
+font-style: normal;}
+.f-fr:before { content: "\f100"; }
+.f-hm:before { content: "\f101"; }
+.f-lk:before { content: "\f102"; }
+.f-mg:before { content: "\f103"; }
+.f-pl:before { content: "\f104"; }             
